@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.card {
+  min-width: 600px;
+  min-height: 400px;
+}
+
+.form-control {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.btn-outline-secondary {
+    border-width: 0;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.btn-play {
+    height: 25px;
+}
+
+hr {
+    background-color: #777;
+}
+
+.card-body {
+    color: #ccc;
+}
+
+.alert-container {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 0;
+}
+
+.card {
+    margin-top: 70px;
+    width: 300px;
+    height: fit-content;
+}
+
+#running-task {
+    cursor: pointer;
+}
